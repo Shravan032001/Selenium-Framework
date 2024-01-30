@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>TestNG:  LICCC_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LICCC_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 30 00:30:32 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>155 seconds (155491 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifySITextTest()'><b>VerifySITextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-1015933451" onClick='toggleBox("Output-1015933451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1015933451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1015933451">
+Shipping Information<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyPITTextTest()'><b>VerifyPITTextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-1773267192" onClick='toggleBox("Output-1773267192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1773267192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1773267192">
+Payment Information<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifySCTextTest()'><b>VerifySCTextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-142568117" onClick='toggleBox("Output-142568117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-142568117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-142568117">
+SauceCard #31337<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyTaxTextTest()'><b>VerifyTaxTextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-1660093884" onClick='toggleBox("Output-1660093884", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1660093884" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1660093884">
+Tax: $8.48<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.InventoryPageTest.verifyinventorypageURLTest()'><b>verifyinventorypageURLTest</b><br>Test class: testcases.InventoryPageTest<br/>
+<a href="#Output-1139817507" onClick='toggleBox("Output-1139817507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139817507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139817507">
+Inventory Page URL = https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.InventoryPageTest@31ea9581</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyFPEDTextTest()'><b>VerifyFPEDTextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-255358703" onClick='toggleBox("Output-255358703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-255358703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-255358703">
+Free Pony Express Delivery!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyPTTextTest()'><b>VerifyPTTextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-710746177" onClick='toggleBox("Output-710746177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-710746177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-710746177">
+Payment Information<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.InventoryPageTest.verifyfootertextTest()'><b>verifyfootertextTest</b><br>Test class: testcases.InventoryPageTest<br/>
+<a href="#Output-1217347025" onClick='toggleBox("Output-1217347025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1217347025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1217347025">
+Text of Footer© 2024 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.InventoryPageTest@31ea9581</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.logintoAppicationTEST()'><b>logintoAppicationTEST</b><br>Test class: testcases.LoginPageTest<br/>
+<a href="#Output-465676958" onClick='toggleBox("Output-465676958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-465676958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-465676958">
+NextPage URL Of LOGINPAGE = https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPageTest@221a3fa4</td></tr>
+<tr>
+<td title='testcases.InventoryPageTest.verifyadd4product()'><b>verifyadd4product</b><br>Test class: testcases.InventoryPageTest<br/>
+<a href="#Output-1276002922" onClick='toggleBox("Output-1276002922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1276002922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1276002922">
+No. of Product in Cart = 4<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcases.InventoryPageTest@31ea9581</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.Verifyfinishbtn()'><b>Verifyfinishbtn</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-1828844261" onClick='toggleBox("Output-1828844261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1828844261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828844261">
+https://www.saucedemo.com/checkout-complete.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.InventoryPageTest.verifyremove2product()'><b>verifyremove2product</b><br>Test class: testcases.InventoryPageTest<br/>
+<a href="#Output-686327949" onClick='toggleBox("Output-686327949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-686327949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-686327949">
+Remaining No. of Product = 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.InventoryPageTest@31ea9581</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyCheckOutPage2URLTest()'><b>VerifyCheckOutPage2URLTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-468456841" onClick='toggleBox("Output-468456841", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-468456841" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-468456841">
+https://www.saucedemo.com/checkout-step-two.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.verifyTITLEofApplicationTEST()'><b>verifyTITLEofApplicationTEST</b><br>Test class: testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPageTest@221a3fa4</td></tr>
+<tr>
+<td title='testcases.CheckOutPage1Test.verifycheckoutpageURLTest()'><b>verifycheckoutpageURLTest</b><br>Test class: testcases.CheckOutPage1Test<br/>
+<a href="#Output-745604825" onClick='toggleBox("Output-745604825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-745604825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-745604825">
+Check Out Page URL = https://www.saucedemo.com/checkout-step-one.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage1Test@cb0755b</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyTotalText1Test()'><b>VerifyTotalText1Test</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-1367186645" onClick='toggleBox("Output-1367186645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1367186645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1367186645">
+Total: $114.44<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.CartPageTest.clickoncheckoutbtnTest()'><b>clickoncheckoutbtnTest</b><br>Test class: testcases.CartPageTest<br/>
+<a href="#Output-54440148" onClick='toggleBox("Output-54440148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-54440148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-54440148">
+Cart Page Next URL = https://www.saucedemo.com/checkout-step-one.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CartPageTest@231f98ef</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.verifyURLofApplication()'><b>verifyURLofApplication</b><br>Test class: testcases.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>testcases.LoginPageTest@221a3fa4</td></tr>
+<tr>
+<td title='testcases.CheckOutPage2Test.VerifyITTextTest()'><b>VerifyITTextTest</b><br>Test class: testcases.CheckOutPage2Test<br/>
+<a href="#Output-164865953" onClick='toggleBox("Output-164865953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-164865953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-164865953">
+Item total: $105.96000000000001<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage2Test@7c137fd5</td></tr>
+<tr>
+<td title='testcases.CartPageTest.verifycartpageURLTest()'><b>verifycartpageURLTest</b><br>Test class: testcases.CartPageTest<br/>
+<a href="#Output-472766619" onClick='toggleBox("Output-472766619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-472766619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-472766619">
+CART PAGE URL = https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CartPageTest@231f98ef</td></tr>
+<tr>
+<td title='testcases.InventoryPageTest.verifytwitterlogoTest()'><b>verifytwitterlogoTest</b><br>Test class: testcases.InventoryPageTest<br/>
+<a href="#Output-254041053" onClick='toggleBox("Output-254041053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-254041053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-254041053">
+Is Twitter Logo Displayed or Not = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.InventoryPageTest@31ea9581</td></tr>
+<tr>
+<td title='testcases.CheckOutPage1Test.verifyinputinfo()'><b>verifyinputinfo</b><br>Test class: testcases.CheckOutPage1Test<br/>
+<a href="#Output-2143559864" onClick='toggleBox("Output-2143559864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2143559864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2143559864">
+Check Out Page 1 Next URL = https://www.saucedemo.com/checkout-step-two.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CheckOutPage1Test@cb0755b</td></tr>
+<tr>
+<td title='testcases.CartPageTest.verifycartlableTest()'><b>verifycartlableTest</b><br>Test class: testcases.CartPageTest<br/>
+<a href="#Output-666586565" onClick='toggleBox("Output-666586565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666586565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666586565">
+Cart Lable = Your Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CartPageTest@231f98ef</td></tr>
+<tr>
+<td title='testcases.CartPageTest.clickoncontinueshopbtnTest()'><b>clickoncontinueshopbtnTest</b><br>Test class: testcases.CartPageTest<br/>
+<a href="#Output-1835022815" onClick='toggleBox("Output-1835022815", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1835022815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1835022815">
+Cart Page Before URL = https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcases.CartPageTest@231f98ef</td></tr>
+</table><p>
+</body>
+</html>
